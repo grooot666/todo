@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 377px;
+  border-radius: 6px;
+background: #FFF;
+box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.16);
+max-width: 1200px;
+margin-left: 1000px;
+margin-top:   100px;
+padding: 24px 16px;
+}
+.container{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.addinput{
+  display: flex;
+  gap: 4px;
+}
+.buttons{
+  display: flex;
+  gap: 5px;
+ padding-bottom: 32px;
+  
+}
+.pine{
+  
+  display: flex;
+
+padding-top: 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+font-size: 12px;
+}
+.pinep{
+  color: #3B73ED;
+} 
+.pinep1{
+  color: #6B7280;
+}
+.notask{
+  color: #6B7280;
+font-size: 14px;
+
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.buttons2{
+  border-radius: 6px;
+  border: 0;
+ font-size: 12px;
+ background-color:  #f3f4f6;
+ padding: 4px 12px;
+}
+
+.buttons1 {
+  background-color: #3C82F6;
+  border: 0;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 4px 12px;
+  color: #F9F9F9 ;
+}
+.addButton{
+  padding: 8px 16px;
+  border-radius: 6px;
+background: #3C82F6;
+border: 0;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+color: #F9F9F9;
+line-height: normal;
+}
+.container h1{
+  color: #000;
+ 
+
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+letter-spacing: -0.5px;
+align-self: stretch;
+
+}
+.addnew{
+  border-radius: 6px;
+border: 1px solid var(--border-border-border, #E4E4E7);
+padding: 8px 16px;
+font-size: 14px;
+width: 280px;
+}
