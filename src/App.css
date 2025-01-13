@@ -31,7 +31,7 @@ gap: 20px;
 .buttons{
   display: flex;
   gap: 5px;
- padding-bottom: 32px;
+
   
 }
 .pine{
@@ -53,6 +53,7 @@ font-size: 12px;
 .notask{
   color: #6B7280;
 font-size: 14px;
+padding-top: 34px;
 
 text-align: center;
 font-family: Inter;
